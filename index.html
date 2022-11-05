@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)https://lmpixels.com/demo/breezycv/light/3/#home -->
+<html lang="en"
+  class=" js no-touch cssanimations csstransforms csstransforms3d csstransitions js no-touch cssanimations csstransforms csstransforms3d csstransitions"
+  >
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <div id="contactmeiframe" style="display:none; 
+  border: 10px;
+  width: 500;
+   height: 110px;
+  text-align: center;
+  background: white;
+  ">
+    <br>
+    <h1 style="font-family: poppins,Helvetica,sans-serif; font-size: 20px">
+      <a target="_blank" href="tel:00966562771504" class="fa fa-phone" style="color:black"></a>
+      <a target="_blank" href="https://api.whatsapp.com/send?phone=966562771504" class="fa fa-whatsapp" style="color:green"></a>
+      <a target="_blank" href="#" class="fa fa-linkedin-square" style="color:blue"></a>
+      <a target="_blank" href="mailto:moh.wajidlatif@gmail.com" class="fa fa-envelope-o" style="color:blue"></a>
+      <a target="_blank" href="https://telegram.me/mw_latif" class="fa fa-telegram" style="color:#0088cc"></a>
+      <br>
+      <br>
+  </div>
+  <div id="contactForm">
+
+    <h2>Send me a message!</h2>
+    <small style="font-size: 15px; color:black">I'll get back to you as soon as possible</small>
+
+    <form action="#">
+      <input placeholder="Name" type="text" required />
+      <input placeholder="Email" type="email" required />
+      <textarea placeholder="Comment"></textarea>
+      <input type="submit">
+      <br>
+      <input type="reset" style="padding: 2px 2px;  border-color: red;">
+    </form>
+  </div>
+  <span id="blur" style="filter:blur(0px)">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>mwlatif resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="BreezyCV - Resume / CV / vCard Template">
+    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio">
+    <meta name="author" content="lmpixels">
+    <link rel="shortcut icon" href="https://lmpixels.com/demo/breezycv/light/3/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./files/reset.css" type="text/css">
+    <link rel="stylesheet" href="./files/bootstrap-grid.min.css" type="text/css">
+    <link rel="stylesheet" href="./files/animations.css" type="text/css">
+    <link rel="stylesheet" href="./files/perfect-scrollbar.css" type="text/css">
+    <link rel="stylesheet" href="./files/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="./files/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="./files/main.css" type="text/css">
+    <script src="./files/jquery-3.6.1.min.js"></script>
+
+    <script>
+      $(function () {
+        // contact form animations
+        $('#contactmebutton').click(function () {
+
+          $('#contactmeiframe').slideDown("slow");
+          $('#contactForm').slideDown("slow");
+
+          document.getElementById("blur").style.filter = "blur(4px)";
+
+        })
+      });
+      $(document).mouseup(function (e) {
+        var container = $("#contactmeiframe");
+        var container2 = $("#contactForm");
+        if (!container.is(e.target) // if the target of the click isn't the container...
+          && container.has(e.target).length === 0
+          && !container2.is(e.target)
+          && container2.has(e.target).length === 0
+        ) // ... nor a descendant of the container
+
+        {
+          container2.slideUp();
+          container.slideUp();
+          document.getElementById("blur").style.filter = "blur(0px)";
+
+        }
+      });
+      $(function () {
+
+        // contact form animations
+        $('#contact').click(function () {
+          $('#contactForm').slideDown("slow");
+          $('#contactmeiframe').slideDown("slow");
+
+          document.getElementById("blur").style.filter = "blur(5px)";
+
+        })
+
+
+      });
+
+
+    </script>
+    <script type="text/javascript" async="" src="./files/recaptcha__en.js.download" crossorigin="anonymous"
+      integrity="sha384-1eu7m2TQmHLEMDRBNkI+a/vXntia1/fjccuDKynBK1zQPm613i0QX9FFLXOMtSbS"></script>
+    <script src="./files/modernizr.custom.js.download"></script>
+</head>
+
+<body>
+  <script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='/browser-sync/browser-sync-client.js?v=2.26.7'><\/script>".replace("HOST", location.hostname));
+//]]></script>
+
+
+  <!-- Animated Background -->
+  <div class="lm-animated-bg"
+    style=" background-image: url(&quot;img/main_bg.png&quot;); background-position: calc(50% + 1.29082px) calc(50% + -7.14488px);">
+  </div>
+  <!-- /Animated Background -->
+
+  <!-- Loading animation -->
+  <div class="preloader" style="display: none;">
+    <div class="preloader-animation">
+      <div class="preloader-spinner">
+      </div>
+    </div>
+  </div>
+  <!-- /Loading animation -->
+
+  <div class="page">
+    <div class="page-content">
+ 
+      <header id="site_header" class="header mobile-menu-hide" style="height:auto;">
+        <div class="header-content">
+          <div class="header-photo">
+            <img src="./files/myphoto.jpg" alt="Alex Smith">
+          </div>
+          <div class="header-titles">
+            <h2>M. Wajid Latif</h2>
+            <h5 style="color: gold; height: 5px;">AWS Cloud Developer</h5>
+          </div>
+        </div>
+
+        <ul class="main-menu">
+          <li class="active">
+            <a href="#home" class="nav-anim active">
+              <span class="menu-icon lnr lnr-home"><img src="files/aboutme.png"></span>
+              <span class="link-text">About me</span>
+            </a>
+          </li>
+          <li>
+            <a href="#resume" class="nav-anim">
+              <span class="menu-icon lnr lnr-graduation-hat"><img src="files/resumeicon.webp"></span>
+              <span class="link-text">Resume</span>
+            </a>
+          </li>
+          <li>
+            <a href="#portfolio" class="nav-anim">
+              <span class="menu-icon lnr lnr-graduation-hat"><img src='files/portfolioicon.png'></span>
+              <span class="link-text">Portfolio</span>
+            </a>
+          </li>
+        </ul>
+        <div style="position: relative; " class="social-links">
+          <ul>
+            <li style="margin: 10px 10px 10px;"> <a href="https://www.linkedin.com/in/wajid-latif-1122201a0/">
+                <i class="fa fa-linkedin-square" >
+                  
+                </i>
+              </a>
+            </li>
+            <li style="margin: 10px 10px 10px;" ><a href="https://www.facebook.com/in/wajid-latif-1122201a0/">
+                <i class="fa fa-facebook-square">
+
+                </i>
+
+              </a></li>
+            <li style="margin: 10px 10px 10px;"><a href="https://github.com/PeaceMoreS/University-Project.git">
+                <i class="fa fa-github">
+
+                </i>
+
+              </a></li>
+              <li style="margin: 10px 10px 10px; "><a href="https://www.instagram.com/mw_latif/">
+                <i class="fa fa-instagram" style="background-color: transparent;">
+
+                </i>
+
+              </a></li>
+              <li style="margin: 10px 10px 10px; "><a href="https://www.twitter.com/mw_latif/">
+                <i class="fa fa-twitter-square" style="background-color: transparent;">
+
+                </i>
+
+              </a></li>
+          </ul>
+        </div>
+        <div class="header-buttons">
+          <a class="btn btn-primary" id="contactmebutton" href="javascript:;">Contact Me&nbsp;</a>
+        </div>
+
+        <div class="copyrights" style="color: rgb(254, 223, 144);">
+
+          <p>Site hosted on AWS EC2</p>
+        </div>
+      </header>
+
+      <!-- Mobile Navigation -->
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <!-- End Mobile Navigation -->
+      <!-- Arrows Nav -->
+      <!-- <div class="lmpixels-arrows-nav">
+            <div> 
+              <img id="contact" src="files/maillogo.png">
+          </div> </div>
+           End Arrows Nav -->
+
+      <div class="content-area">
+        <div class="animated-sections">
+          <!-- Home Subpage -->
+          <section data-id="home" class="animated-section start-page ps ps--theme_default section-active"
+            data-ps-id="9a9be2b7-8703-458b-9a0a-5aebe8b043ff">
+            <div class="page-title">
+              <h2>About <span>Me</span></h2>
+            </div>
+
+            <div class="section-content">
+              <!-- Personal Information -->
+              <div class="row">
+                <div class="col-xs-12 col-sm-7">
+                  <p>My name is <em>Muhammad Wajid Latif</em>, I am a graduate of Prince Mohammed Bin Fahd University,
+                    Saudi Arabia with a Master in Business Administration & a Bsc. in Computer Science.</p>
+                  <p>
+                    Originally from Pakistan, I am a reliable, responsible, and hard-working person. I am a team worker
+                    and adaptable to all challenges and situations requiring problem-solving. I am able to work very
+                    well within both a team-driven environment and situations where I have to take my own initiative. I
+                    work very well under pressure and adhere to strict deadlines, with consistency and persistence.
+                    &nbsp; &nbsp;</p>
+
+
+                  <P>Feel free to have a look around my website :) &nbsp; &nbsp; </P>
+
+                </div>
+
+                <div class="col-xs-12 col-sm-5">
+                  <div class="info-list">
+                    <ul>
+                      <li>
+                        <span class="title">D.O.B</span>
+                        <span class="value">27th February, 1998</span>
+                      </li>
+                      <li>
+                        <span class="title">Nationality</span>
+                        <span class="value">Pakistan</span>
+                      </li>
+                      <li>
+                        <span class="title">Current Residence</span>
+                        <span class="value">Saudi Arabia</span>
+                      </li>
+
+                      <li>
+                        <span class="title">Address</span>
+                        <span class="value">Dhahran, Sharkia (Eastern Province), 34451</span>
+                      </li>
+
+                      <li>
+                        <span class="title">E-Mail</span>
+                        <span class="value">moh.wajidlatif@gmail.com</span>
+                      </li>
+
+                      <li>
+                        <span class="title">Phone</span>
+                        <span class="value">+966 56 277 1504</span>
+                      </li>
+                    </ul>
+                  </div>
+
+                </div>
+
+
+                <table bordercolor="white" align="left" width="400" height="50" border="1">
+                  <tbody>
+
+                    <tr>
+
+                      <th width="500" align="justify" scope="col"><a
+                          href="https://www.linkedin.com/in/wajid-latif-1122201a0/" target="_blank"><img alt="linkedin"
+                            src="files/linkedinL.png" alt="" width="max" height="max" /> </a></th>
+
+
+                    </tr>
+
+                  </tbody>
+                </table>
+                <em></em>
+                <header style="text-align:right; width:60px; display:inline-block; width:60px;">
+                  <div>
+                    <div>&nbsp;</div>
+                    <div><em><strong>&nbsp;</strong></em></div>
+                  </div>
+                </header>
+              </div>
+              <div class="ps__scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+                <div class="ps__scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+              </div>
+              <div class="ps__scrollbar-y-rail" style="top: 0px; right: 0px;">
+                <div class="ps__scrollbar-y" tabindex="0" style="top: 0px; height: 0px;"></div>
+              </div>
+          </section>
+          <!-- End of Home Subpage -->
+
+          <!-- About Me Subpage -->
+          <section data-id="about-me" class="animated-section ps ps--theme_default ps--active-y"
+            data-ps-id="5ef59841-1a53-a549-367d-4af48eae696b">
+            <div class="page-title">
+              <h2>About <span>Me</span></h2>
+            </div>
+
+            <div class="section-content">
+              <!-- Personal Information -->
+              <div class="row">
+                <div class="col-xs-12 col-sm-7">
+                  <p>Proin volutpat mauris ac pellentesque pharetra. Suspendisse congue elit vel odio suscipit, sit amet
+                    tempor nisl imperdiet. Quisque ex justo, faucibus ut mi in, condimentum finibus dolor. Aliquam vitae
+                    hendrerit dolor, eget imperdiet mauris. Maecenas et ante id ipsum condimentum dictum et vel massa.
+                    Ut in imperdiet dolor, vel consectetur dui.</p>
+                </div>
+
+                <div class="col-xs-12 col-sm-5">
+                  <div class="info-list">
+                    <ul>
+                      <li>
+                        <span class="title">D.O.B</span>
+                        <span class="value">27th February, 1998</span>
+                      </li>
+
+                      <li>
+                        <span class="title">Current Residence</span>
+                        <span class="value">Saudi Arabia</span>
+                      </li>
+                      <li>
+                        <span class="title">Address</span>
+                        <span class="value">Dhahran Sharkia (Eastern Province), 34451</span>
+                      </li>
+
+                      <li>
+                        <span class="title">E-Mail</span>
+                        <span class="value">moh.wajidlatif@gmail.com</span>
+                      </li>
+
+                      <li>
+                        <span class="title">Phone</span>
+                        <span class="value">+966 56 277 1504</span>
+                      </li>
+                    </ul>
+
+<div id="ajax-page" class="ajax-page-content">
+    <div class="ajax-page-wrapper">
+        <div class="ajax-page-nav">
+            <div class="nav-item ajax-page-prev-next">
+                <a class="ajax-page-load" href="portfolio-3.html"><i class="lnr lnr-chevron-left"></i></a>
+                <a class="ajax-page-load" href="portfolio-2.html"><i class="lnr lnr-chevron-right"></i></a>
+            </div>
+            <div class="nav-item ajax-page-close-button">
+                <a id="ajax-page-close-button" href="#"><i class="lnr lnr-cross"></i></a>
+            </div>
+        </div>
+
+        <div class="ajax-page-title">
+            <h1>Portfolio Project 1</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-8 col-md-8 portfolio-block">
+                <div class="owl-carousel portfolio-page-carousel">
+                    <div class="item">
+                        <img src="img/portfolio/full/1.jpg" alt="" />
+                    </div>
+                    <div class="item">
+                        <img src="img/portfolio/full/2.jpg" alt="" />
+                    </div>
+                    <div class="item">
+                        <img src="img/portfolio/full/3.jpg" alt="" />
+                    </div>
+                </div>
+
+                <div class="portfolio-page-video embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/97102654?autoplay=0"></iframe>
+                </div>
+
+                <script type="text/javascript">
+                    jQuery(document).ready(function($){
+                        $('.portfolio-page-carousel').imagesLoaded(function(){
+                            $('.portfolio-page-carousel').owlCarousel({
+                                smartSpeed:1200,
+                                items: 1,
+                                loop: true,
+                                dots: true,
+                                nav: true,
+                                navText: false,
+                                margin: 10,
+                                autoHeight:true
+                            });
+                        });
+                    });
+                </script>
+            </div>
+
+            <div class="col-sm-4 col-md-4 portfolio-block">
+                <!-- Project Description -->
+                <div class="project-description">
+                    <div class="block-title">
+                        <h3>Description</h3>
+                    </div>
+                    <ul class="project-general-info">
+                        <li><p><i class="fa fa-user"></i> Alex Smith</p></li>
+                        <li><p><i class="fa fa-globe"></i> <a href="#" target="_blank">www.project-site.com</a></p></li>
+                        <li><p><i class="fa fa-calendar"></i> 25 december, 2016</p></li>
+                    </ul>
+
+                    <p class="text-justify">Aliquam euismod aliquam massa, quis eleifend dui sodales vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                    <!-- /Project Description -->
+
+                    <!-- Technology -->
+                    <div class="tags-block">
+                        <div class="block-title">
+                            <h3>Technology</h3>
+                        </div>
+                        <ul class="tags">
+                            <li><a>HTML5</a></li>
+                            <li><a>CSS3</a></li>
+                            <li><a>jQuery</a></li>
+                            <li><a>Ajax</a></li>
+                            <li><a>PHP5</a></li>
+                        </ul>
+                    </div>
+                    <!-- /Technology -->
+
+                    <!-- Share Buttons -->
+                    <div class="btn-group share-buttons">
+                        <div class="block-title">
+                            <h3>Share</h3>
+                        </div>
+                        <a href="#" target="_blank" class="btn"><i class="fab fa-facebook-f"></i> </a>
+                        <a href="#" target="_blank" class="btn"><i class="fab fa-twitter"></i> </a>
+                        <a href="#" target="_blank" class="btn"><i class="fab fa-dribbble"></i> </a>
+                    </div>
+                    <!-- /Share Buttons -->
+                </div>
+                <!-- Project Description -->
+            </div>
+        </div>
+    </div>
+</div>
+
+                  </div>
+                </div>
+                <div> Proin volutpat mauris ac pellentesque pharetra. Suspendisse congue elit vel odio suscipit, sit
+                  amet tempor nisl imperdiet. Quisque ex justo, faucibus ut mi in, condimentum finibus dolor. Aliquam
+                  vitae hendrerit dolor, eget imperdiet mauris. Maecenas et ante id ipsum condimentum dictum et vel
+                  massa. Ut in imperdiet dolor, vel consectetur dui.</div>
+              </div>
+              <!-- End of Personal Information -->
+
+
+
+
+
+
+
+
+              <div class="white-space-50"></div>
+
+              <!-- Pricing -->
+              <div class="row">
+                <div class="col-xs-12 col-sm-12">
+
+                  <div class="block-title">
+                    <h3>Education</h3>
+                  </div>
+                </div>
+              </div>
+
+              <!-- <div class="row">
+                    <div class=" col-xs-12 col-sm-12 ">
+                      <div class="fw-pricing clearfix row">
+                        
+                        
+     
+                        <div class="fw-package-wrap col-md-6 highlight-col ">
+                          <div class="fw-package">
+                            <div class="fw-heading-row">
+                              <span>3.78 CGPA</span>
+                            </div>
+                            
+                            <div class="fw-pricing-row">
+                              <span>MBA</span>
+                              <small></small>
+                            </div>
+
+                            <div class="fw-button-row">
+                              <a href="https://www.pmu.edu.sa" target="https://www.pmu.edu.sa" class="btn btn-primary">PMU</a>
+                            </div>
+                            
+                            <div class="fw-default-row">Some Courses Taken:</div>
+                            <div class="fw-default-row">Management Information Systems</div>
+                            <div class="fw-default-row">Business Negotiations'</div>
+                            <div class="fw-default-row">Marketing</div>
+                            <div class="fw-default-row">Research Methodologies</div>
+                          </div>
+                        </div>
+                        <div class="fw-package-wrap col-md-6 ">
+                          <div class="fw-package">
+                            <div class="fw-heading-row">
+                              <span>3.44 CGPA</span>
+                            </div>
+                            
+                            <div class="fw-pricing-row">
+                              <span>BSc. Computer Science</span>
+                              <small>per month</small>
+                            </div>
+                            
+                            <div class="fw-button-row">
+                              <a href="https://www.pmu.edu.sa" target="_self" class="btn btn-secondary">3.44 CGPA</a>
+                            </div>
+
+                            <div class="fw-default-row">Lorem ipsum dolor</div>
+                            <div class="fw-default-row">Pellentesque scelerisque</div>
+                            <div class="fw-default-row">Morbi eu sagittis</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  End of Pricing -->
+
+              <div class="white-space-50"></div>
+
+              <!-- Fun Facts -->
+              <div class="row">
+                <div class="col-xs-12 col-sm-12">
+
+                  <div class="block-title">
+                    <h3>Fun <span>Facts</span></h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                  <div class="fun-fact gray-default">
+                    <i class="lnr lnr-heart"></i>
+                    <h4>Codin Game Clash of Code Rank</h4>
+                    <span class="fun-fact-block-value">2,159</span>
+                    <span class="fun-fact-block-text"></span>
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4">
+                  <div class="fun-fact gray-default">
+                    <i class="lnr lnr-clock"></i>
+                    <h4>Working Hours</h4>
+                    <span class="fun-fact-block-value">4,780</span>
+                    <span class="fun-fact-block-text"></span>
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 ">
+                  <div class="fun-fact gray-default">
+                    <i class="lnr lnr-star"></i>
+                    <h4>Awards Won</h4>
+                    <span class="fun-fact-block-value">15</span>
+                    <span class="fun-fact-block-text"></span>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Fun Facts -->
+
+            </div>
+            <div class="ps__scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+              <div class="ps__scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+            </div>
+            <div class="ps__scrollbar-y-rail" style="top: 0px; height: 459px; right: 0px;">
+              <div class="ps__scrollbar-y" tabindex="0" style="top: 0px; height: 100px;"></div>
+            </div>
+          </section>
+          <!-- End of About Me Subpage -->
+
+          <!-- Resume Subpage -->
+          <section data-id="resume" class="animated-section ps ps--theme_default ps--active-y"
+            data-ps-id="01f2ad19-c6c7-1d77-9735-e3e5e31897ce">
+            <div class="page-title" style="display: inline-block;
+    position: relative;
+    padding-right: 25px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;">
+              <h2>Resu<span font-color="blue">me</span></h2>
+            </div>
+            <p></p>
+            <p></p>
+
+
+            <div class="section-content">
+
+              <div class="row">
+                <div class="col-xs-12 col-sm-7">
+
+                  <div class="block-title">
+                    <h3>Education</h3>
+                  </div>
+
+                  <div class="timeline timeline-second-style clearfix">
+                    <div class="timeline-item clearfix">
+                      <div class="left-part">
+                        <h5 class="item-period">2020-2022</h5>
+                        <span class="item-company" style="color:blueviolet;"><strong>Prince Mohammed Bin Fahd
+                            University</strong></span>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="right-part">
+                        <h4 class="item-title">Masters in Business Administration</h4>
+                        <p><em>Specialized in <strong>Management Information Systems</strong> with coursework in
+                            <strong>Entrepreneurship</strong>, <strong>Marketing,&nbsp; </strong> <strong>Operations
+                              Management &amp; Research Methdologies&nbsp; &nbsp;&nbsp;</strong>&nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp;</em></p>
+                      </div>
+                    </div>
+
+                    <div class="timeline-item clearfix">
+                      <div class="left-part">
+                        <h5 class="item-period">2016-2020</h5>
+                        <span class="item-company" style="color:blueviolet;"><strong>Prince Mohammed Bin Fahd
+                            University</strong></span>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="right-part">
+                        <h4 class="item-title">Bsc. Computer Science</h4>
+                        <p>Coursework includes <em><strong>Algorithms, Systems/Shell programming, Cloud computing,
+                              Databases, Computer Networks.</strong></em>
+                          Participated in and Organized Software-related events for Cloud
+                          Computing, Amazon web services (AWS), Shell programming, and more.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="white-space-50"></div>
+
+                  <div class="block-title">
+                    <h3>Projects</h3>
+                  </div>
+
+                  <div class="timeline timeline-second-style clearfix">
+                    <div class="timeline-item clearfix">
+                      <div class="left-part">
+                        <h5 class="item-period">2022</h5>
+                        <span class="item-company"
+                          style="font-stretch:expanded; color:blueviolet; font-weight: bold;">Personal project</span>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="right-part">
+                        <h4 class="item-title">mwlatif.me / Cloud Resume</h4>
+                        <p><em>Cloud Resume</em> built from blank template. Developed, built and integrated HTML, CSS,
+                          javascript, jquery. Hosted web server on an AWS EC2 instance, also using S3 storage. &nbsp;
+                          &nbsp;</p>
+                      </div>
+                    </div>
+
+                    <div class="timeline-item clearfix">
+                      <div class="left-part">
+                        <h5 class="item-period">2016-2022</h5>
+                        <span class="item-company" style="color:blueviolet; font-weight: bold;">Research Projects</span>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="right-part">
+                        <h4 class="item-title">Research Writing Coursework</h4>
+                        <p>Wrote a paper on Color Psychology & Marketing, Business innovations by Xiaomi, Cloud
+                          Computing benifits for bussinesses, migration of pakwheels to AWS cloud, and more; for
+                          research coursework&nbsp;</p>
+                        <p class="item-company">&nbsp;</p>
+                        <p class="item-company">&nbsp;</p>
+                      </div>
+                    </div>
+
+                    <div class="timeline-item clearfix">
+                      <div class="left-part">
+                        <h5 class="item-period">2016 - 2020</h5>
+                        <span class="item-company" style="font-weight: bold; color:blueviolet">University
+                          Projects&nbsp;</span>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="right-part">
+                        <h4 class="item-title">Web / Application Development</h4>
+                        <p>Designed & Developed a number of websites and application for university coursework;
+                          developed databse of employees integrated with an application to register, append, update or
+                          remove elements. Developed a mock banking website using HTML, javascript, jquery & CSS. </p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-xs-12 col-sm-5">
+                  <div class="block-title">
+                    <h3>Core <span>Competencies</span></h3>
+                  </div>
+
+                  <div class="skills-info skills-second-style">
+                    <!-- Skill 1 -->
+                    <div class="skill clearfix">
+                      <h4>Teamworking </h4>
+                      <div class="skill-value">Excell</div>
+                    </div>
+                    <div class="skill-container skill-tw">
+                      <div class="skill-percentage"></div>
+                    </div>
+                    <!-- End of Skill 1 -->
+
+                    <!-- Skill 2 -->
+                    <div class="skill clearfix">
+                      <h4>Communicative </h4>
+                      <div class="skill-value">&nbsp;</div>
+                    </div>
+                    <div class="skill-container skill-comm">
+                      <div class="skill-percentage"></div>
+                    </div>
+                    <!-- End of Skill 2 -->
+
+                    <!-- Skill 3 -->
+                    <div class="skill clearfix">
+                      <h4>Consistency</h4>
+                      <div class="skill-value">&nbsp;</div>
+                    </div>
+                    <div class="skill-container skill-cons">
+                      <div class="skill-percentage"></div>
+                    </div>
+                    <!-- End of Skill 3 -->
+
+                    <!-- Skill 4 -->
+                    <div class="skill clearfix">
+                      <h4>Problem Solving</h4>
+                      <div class="skill-value">&nbsp;</div>
+                    </div>
+                    <div class="skill-container skill-ps">
+                      <div class="skill-percentage"></div>
+                    </div>
+                    <!-- End of Skill 4 -->
+
+                  </div>
+                  <!-- End of Design Skills -->
+
+                  <div class="white-space-10"></div>
+
+                  <!-- Coding Skills -->
+                  <div class="block-title">
+                    <h3>Programming <span>Skills</span></h3>
+                  </div>
+
+                  <div class="skills-info skills-second-style">
+                    <!-- Skill 5 -->
+                    <div class="skill clearfix">
+                      <h4>Amazon Web Services</h4>
+                      <div class="skill-value">&nbsp;</div>
+                    </div>
+                    <div class="skill-container skill-aws">
+                      <div class="skill-percentage"></div>
+                    </div>
+                    <!-- End of Skill 5 -->
+
+                    <!-- Skill 6 -->
+                    <div class="skill clearfix">
+                      <h4>Python</h4>
+                      <div class="skill-value">&nbsp;</div>
+                    </div>
+                    <div class="skill-container skill-py">
+                      <div class="skill-percentage"></div>
+                    </div>
+                    <!-- End of Skill 6 -->
+
+                    <!-- Skill 7 -->
+                    <div class="skill clearfix">
+                      <h4>HTML/CSS</h4>
+                      <div class="skill-value"></div>
+                    </div>
+                    <div class="skill-container skill-html">
+                      <div class="skill-percentage"></div>
+                    </div>
+                    <!-- End of Skill 7 -->
+
+                    <!-- Skill 8 -->
+                    <div class="skill clearfix">
+                      <h4>Java</h4>
+                      <div class="skill-value">&nbsp;</div>
+                    </div>
+                    <div class="skill-container skill-java">
+                      <div class="skill-percentage"></div>
+                    </div>
+                    <!-- End of Skill 8 -->
+
+                    <!-- Skill 9 -->
+                    <div class="skill clearfix">
+                      <h4>Shell Programming / Linux</h4>
+                      <div class="skill-value">&nbsp;</div>
+                    </div>
+                    <div class="skill-container skill-linux">
+                      <div class="skill-percentage"></div>
+                    </div>
+                    <!-- End of Skill 9 -->
+                  </div>
+                  <!-- End of Coding Skills -->
+
+                  <div class="white-space-10"></div>
+
+                  <!-- Knowledges -->
+                  <div class="block-title">
+                    <h3>Knowledges &amp; Skills</h3>
+                  </div>
+                  <strong> </strong>
+                  <ul class="knowledges">
+
+                    <li>Communication</li>
+                    <li>Research Writing</li>
+                    <li>Social Networking</li>
+                    <li>Problem Solving</li>
+                    <li>Amazon Web Services</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                  </ul>
+                  <div class="white-space-10"></div>
+
+                  <div class="block-title">
+                    <div class="white-space-10"></div>
+
+                    <h3>Languages</h3>
+                  </div>
+                  <div class="skills-info skills-second-style">
+                    <!-- Skill 1 -->
+                    <div class="skill clearfix">
+                      <h4>English </h4>
+                      <div class="skill-value">C1 (Advanced)</div>
+                    </div>
+                    <div class="skill-container skill-7">
+                      <div class="skill-percentage"></div>
+                    </div>
+                    <!-- End of Skill 1 -->
+
+                    <!-- Skill 2 -->
+                    <div class="skill clearfix">
+                      <h4>Urdu </h4>
+                      <div class="skill-value">Native (B2)</div>
+                    </div>
+                    <div class="skill-container skill-urdu">
+                      <div class="skill-percentage"></div>
+                    </div>
+                    <!-- End of Skill 2 -->
+
+                    <!-- Skill 3 -->
+                    <div class="skill clearfix">
+                      <h4>Arabic</h4>
+                      <div class="skill-value">Beginner (A1)</div>
+                    </div>
+                    <div class="skill-container skill-arabic">
+                      <div class="skill-percentage"></div>
+                    </div>
+                    <!-- End of Skill 3 -->
+
+
+                  </div>
+                  <strong> </strong>
+                  <!-- <ul class="knowledges">
+                        
+                        <li>English <span style="background-color: black;">Professional</span></li>
+                        <p></p>
+                        <li>Urdu <span style="background-color: black;">Native</li>
+                        <p></p>
+                          <li>Arabic <span style="background-color: black;"> Beginner</li>
+                        
+                      </ul>
+                    </div>
+                  -->
+                  <!-- End of Skills & Certificates -->
+                </div>
+
+                <div class="white-space-50"></div>
+
+                <!-- Certificates -->
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12">
+                    <div class="block-title">
+                      <h3>Certificates</h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <!-- Certificate 1 -->
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="certificate-item clearfix">
+                      <div class="certi-logo">
+                        <img src="./files/codinGamelogo.png" alt="logo">
+                      </div>
+
+                      <div class="certi-content">
+                        <div class="certi-title">
+                          <h4>Gold Level Coding Speed</h4>
+                        </div>
+                        <div class="certi-id">
+                          <span>Membership ID: FU_J0eRRIWDjIHyh52_ZUA</span>
+                        </div>
+                        <div class="certi-date">
+                          <span STYLE="font-weight:bold">23rd September 2022</span>
+                        </div>
+                        <div class="certi-company">
+                          <span></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Certificate 1 -->
+
+                  <!-- Certificate 2 -->
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="certificate-item clearfix">
+                      <div class="certi-logo">
+                        <img src="./files/AWS-logo.png" alt="logo">
+                      </div>
+
+                      <div class="certi-content">
+                        <div class="certi-title">
+                          <h4>AWS Technical Essentials day</h4>
+                        </div>
+                        <div class="certi-id">
+                          <span>Membership ID: N/A</span>
+                        </div>
+                        <div class="certi-date">
+                          <span><strong>August 2022</strong>&nbsp;</span>
+                        </div>
+                        <div class="certi-company">
+                          <span></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Certificate 2 -->
+
+                </div>
+                <!-- End of Certificates -->
+                <h5 style="text-align:center"><a class="btn btn-primary"
+                    href="https://mwlatifserverfiles.s3.us-east-2.amazonaws.com/MWLATIF-CV+1.pdf"
+                    target="_blank">Download PDF</a></h5>
+
+              </div>
+              <div class="ps__scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+                <div class="ps__scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+              </div>
+
+          </section>
+          <!-- End of Resume Subpage -->
+
+          <!-- Portfolio Subpage -->
+          <section data-id="portfolio" class="animated-section ps ps--theme_default ps--active-y"
+            data-ps-id="7404790b-c332-7bb0-45bf-9eac42fff67d">
+            <div class="page-title">
+              <h2>Portfolio</h2>
+            </div>
+
+            <div class="section-content">
+
+              <div class="row">
+                <div class="col-xs-12 col-sm-12">
+                  <!-- Portfolio Content -->
+                  <div class="portfolio-content">
+
+                    <ul style="text-align: center">
+                      <li style="list-style: none;">
+                      </li>
+                    </ul>
+
+                    <!-- Portfolio Grid -->
+                    <div class="portfolio-grid three-columns shuffle"
+                      style="position: relative; overflow: hidden; height: 525.84px; transition: height 450ms ease-out 0s;">
+
+                      <figure class="item lbaudio shuffle-item filtered"
+                        data-groups="[&quot;category_all&quot;, &quot;category_soundcloud&quot;]"
+                        style="position: absolute; top: 0px; left: 0px; visibility: visible; transition: transform 450ms ease-out 0s, opacity 450ms ease-out 0s;">
+                        <div class="portfolio-item-img">
+                          <img src="./files/github.png" height="240" width="50" alt="Vimeo Video 1" title="">
+                          <a href="https://github.com/PeaceMoreS/University-Project.git" target="_blank" class=""
+                            title="Github"></a>
+                        </div>
+                        <h4 class="name">Github</h4>
+                        <span class="category">Github Profile</span>
+                      </figure>
+
+                      <figure style="position: absolute; ">
+                        <div class="portfolio-item-img">
+                          <img src="./files/click.svg" height="240" alt="Click Count 2" title="">
+                          <a href="files/clickcounter.html" target="_blank" class="lightbox mfp-iframe"
+                            title="Click Counter"></a>
+                        </div>
+                        <h4 class="name">Click Counter</h4>
+                        <span class="category">Click Counter</span>
+                      </figure>
+
+                      <figure class="item lbvideo shuffle-item filtered"
+                        data-groups="[&quot;category_all&quot;, &quot;category_vimeo-videos&quot;]"
+                        style="position: absolute; top: 0px; left: 0px; visibility: visible; opacity: 1; transform: translate3d(416px, 0px, 0px) scale3d(1, 1, 1); transition: transform 450ms ease-out 0s, opacity 450ms ease-out 0s;">
+
+                        <div class="portfolio-item-img">
+                          <img src="./files/tictactoe.png" height="240" alt="tictactoe" title="">
+                          <a href="./files/tiktoktoe.html" target="_blank" class="lightbox mfp-iframe"
+                            title="Tic Tac Toe"></a>
+                        </div>
+                        <h4 class="name">Tic Tac Toe</h4>
+                        <span class="category">Tic Tac Toe</span>
+                        </figure>
+                        <figure style="position: absolute; ">
+                          <div class="portfolio-item-img">
+                            <img src="./files/cloudresume.png" height="240" alt="cloudresume" title="">
+                            <a href="./cloudcv.html" target="_blank" class="lightbox mfp-iframe"
+                              title="Click Counter"></a>
+                          </div>
+                          <h4 class="name">Cloud Resume</h4>
+                          <span class="category">Cloud Resume</span>
+                        </figure>
+
+
+                    </div>
+                  </div>
+                  <!-- End of Portfolio Content -->
+                </div>
+              </div>
+            </div>
+            <div class="ps__scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+              <div class="ps__scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+            </div>
+            <div class="ps__scrollbar-y-rail" style="top: 0px; height: 459px; right: 0px;">
+              <div class="ps__scrollbar-y" tabindex="0" style="top: 0px; height: 277px;"></div>
+            </div>
+          </section>
+          <!-- End of Portfolio Subpage -->
+
+
+          <!-- End of Contact Subpage -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="./files/jquery-2.1.3.min.js.download"></script>
+  <script src="./files/modernizr.custom.js.download"></script>
+  <script src="./files/animating.js.download"></script>
+
+  <script src="./files/imagesloaded.pkgd.min.js.download"></script>
+  <script src="./files/api.js.download"></script>
+
+  <script src="./files/perfect-scrollbar.min.js.download"></script>
+  <script src="./files/jquery.shuffle.min.js.download"></script>
+  <script src="./files/masonry.pkgd.min.js.download"></script>
+  <script src="./files/owl.carousel.min.js.download"></script>
+  <script src="./files/jquery.magnific-popup.min.js.download"></script>
+
+  <script src="./files/validator.js.download"></script>
+  <script src="./files/main.js.download"></script>
+  <script defer="" src="./files/v652eace1692a40cfa3763df669d7439c1639079717194"
+    integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
+    data-cf-beacon="{&quot;rayId&quot;:&quot;75555a0e185dce14&quot;,&quot;version&quot;:&quot;2022.8.1&quot;,&quot;r&quot;:1,&quot;token&quot;:&quot;94b99c0576dc45bf9d669fb5e9256829&quot;,&quot;si&quot;:100}"
+    crossorigin="anonymous"></script>
