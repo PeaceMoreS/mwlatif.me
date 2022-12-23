@@ -1,0 +1,41 @@
+    <!DOCTYPE html>
+
+<html>
+<style>
+img {
+
+}
+</style>
+<head>
+<script>
+var img = document.getElementById("img");
+var button = document.getElementById("button");
+
+var timer = false;
+var count = 0;
+var t;
+
+button.addEventListener("button", function() {
+	timer = true;
+    count = 0;
+    t = setTimeout(function() {
+    	alert("Clicks on img: " + count);
+    }, 10000);
+});
+
+button.addEventListener("click", function() {
+	if(timer) {
+    	count++;
+    }
+});
+</script>
+</head>
+<body>
+<p id="h" style="background-color:red; color:white; font-size:50px; text-align: center;">Click as many times as you can within 10 seconds!</p>
+<button style="width:50%; height:50%; background-color:transparent; display:block;
+  margin-left: auto;
+  margin-right: auto;" onmouseover="this.style.backgroundColor='red'" onmouseout="this.style.backgroundColor=''" id="button"><img src="./redbutton.png" >
+</button>
+
+</body>
+</html>

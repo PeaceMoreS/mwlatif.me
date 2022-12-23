@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head><button id="button">Click me!</button>
+<div id="status">Not Running</div></head>
+<body>
+<script>
+var running = false,
+    count = 0,
+    run_for = 2000;
+
+var end_counter = function() {
+    if (running) {
+        running = false;
+        $("#status").text("Not Running");
+        alert(count);
+        started_at = 0;
+    }
+};
+$("#button").click(function() {
+    if (running) {
+        count++;
+    } else {
+        running = true;
+        $("#status").text("Running");
+        count = 1;
+        setTimeout(end_counter, run_for);
+    }
+});
+</script></body>
+</html>
